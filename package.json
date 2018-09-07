@@ -1,21 +1,20 @@
 {
-  "name": "node-static",
-  "description": "simple, compliant file streaming module for node",
-  "url": "http://github.com/cloudhead/node-static",
+  "name": "janusjs-node-static",
+  "description": "compliant file streaming module for janusjs framework",
+  "url": "https://github.com/Kolbaskin/janusjs-node-static",
   "keywords": [
     "http",
     "static",
     "file",
     "server"
   ],
-  "author": "Alexis Sellier <alexis@cloudhead.io>",
-  "contributors": [
-    "Pablo Cantero <pablo@pablocantero.com>",
-    "Ionică Bizău <bizauionica@gmail.com>"
-  ],
+  "author": {
+    "name": "Max Tushev",
+    "email": "maximtushev@gmail.com"
+  },
   "repository": {
     "type": "git",
-    "url": "http://github.com/cloudhead/node-static"
+    "url": "https://github.com/Kolbaskin/janusjs-node-static"
   },
   "main": "./lib/node-static",
   "scripts": {
@@ -28,20 +27,17 @@
   "dependencies": {
     "optimist": ">=0.3.4",
     "colors": ">=0.6.0",
-    "mime": "^1.2.9"
+    "mime": ">=1.2.9"
   },
   "devDependencies": {
     "request": "latest",
     "vows": "latest"
   },
-  "version": "0.7.10",
+  "version": "0.1.0",
   "engines": {
-    "node": ">= 0.4.1"
+    "node": ">= 9.0.0"
   },
-  "bugs": {
-    "url": "https://github.com/cloudhead/node-static/issues"
-  },
-  "homepage": "https://github.com/cloudhead/node-static",
+  "homepage": "https://github.com/Kolbaskin/janusjs-node-static",
   "directories": {
     "example": "examples",
     "test": "test"
